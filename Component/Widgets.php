@@ -188,7 +188,7 @@ class Widgets extends YamlComponentAbstract
     {
 
         // Default property return
-        return serialize($parameters);
+        return json_encode($parameters);
     }
 
     /**
